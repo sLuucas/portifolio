@@ -1,0 +1,35 @@
+@keyframes spinning {
+    0%{
+        transform: rotate(15deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(15deg);
+    }
+}
+
+@keyframes navigation{
+    0%{
+        transform: translate(0px, 0px);
+    }
+    25%{
+        transform: translate(100px, -35px);
+    }
+    50%{
+        transform: translate(200px, -10px);
+    }
+    75%{
+        transform: translate(100px, -35px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+        
+}}

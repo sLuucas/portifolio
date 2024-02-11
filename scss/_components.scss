@@ -1,0 +1,113 @@
+.card-skills{
+    cursor: pointer;
+    width: 100%;
+    max-width: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    opacity: 0.7;
+    filter: grayscale(0.4);
+    transition: all .3s;
+    &:hover{
+        opacity: 1;
+        filter:saturate(1.5);
+        transform: scale(1.1);
+    }
+    img{
+        max-width: 100%;
+    }
+    span{
+        display: block;
+        margin-top: 5px;
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        font-weight: 700;
+    }
+    @media (max-width:1200px){
+        max-width: 13rem;
+    }
+    
+}
+
+.card-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    opacity: 0.7;
+    filter: grayscale(0.4);
+    transition: all .3s ease-in;
+    &:hover{
+        opacity: 1;
+        filter:saturate(1.5);
+        transform: scale(1.02);
+    }
+    .card{
+        .image{
+            img{
+                width: 30rem;
+                height: 15rem;
+                object-fit: fill;
+                border-radius: 8px;
+            }
+        }
+        .text{
+            padding-top: 1rem;
+            width: 100%;
+            max-width: 30rem;
+            height: 5rem;
+            h4{
+                text-align: center;
+                font-size: 2rem;
+                line-height: 150%;
+                font-weight: 700;
+            }
+            p{
+                text-align: center;
+                font-size: 1.3rem;
+                line-height: 125%;
+                font-weight: 500;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+
+    @media (max-width:1200px){
+        width: 25rem;
+    }
+    @media (max-width:600px){
+        width: 30rem;
+    }
+}
+
+.card-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    padding: 1.5rem 1.5rem;
+    background-color: #201f1f;
+    border-radius: 8px;
+    filter: grayscale(0.4);
+    transition: all .3s;
+    &:hover{
+        opacity: 1;
+        filter:saturate(1.5);
+        transform: scale(1.02);
+    }
+    .icon{
+        width: 3rem;
+        margin-right: 1.5rem;
+    }
+    @media (max-width:1200px){
+       width: 19rem;
+    }
+    @media (max-width:900px){
+        width: 23rem;
+    }
+    @media (max-width:600px){
+        width: 14rem;
+    }
+}

@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background: rgb(15,3,27);
+    background: linear-gradient(90deg, rgba(15,3,27,1) 0%, rgba(15,3,27,1) 30%, rgba(27,5,50,1) 50%, rgba(15,3,27,1) 70%, rgba(15,3,27,1) 100%);
+}
+
