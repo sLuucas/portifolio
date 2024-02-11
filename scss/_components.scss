@@ -28,6 +28,10 @@
     @media (max-width:1200px){
         max-width: 13rem;
     }
+    @media (max-width:600px){
+        opacity: 1;
+        filter: none;
+    }
     
 }
 
@@ -79,6 +83,8 @@
     }
     @media (max-width:600px){
         width: 30rem;
+        opacity: 1;
+        filter: none;
     }
 }
 
@@ -109,5 +115,7 @@
     }
     @media (max-width:600px){
         width: 14rem;
+        opacity: 1;
+        filter: none;
     }
 }
