@@ -173,6 +173,13 @@ h2, h3, h4, h5 {
     filter: none;
   }
 }
+@media (max-width: 440px) {
+  .card-contact {
+    width: 22rem;
+    opacity: 1;
+    filter: none;
+  }
+}
 
 @keyframes spinning {
   0% {
@@ -196,13 +203,13 @@ h2, h3, h4, h5 {
     transform: translate(0px, 0px);
   }
   25% {
-    transform: translate(100px, -35px);
+    transform: translate(100px, -18px);
   }
   50% {
     transform: translate(200px, -10px);
   }
   75% {
-    transform: translate(100px, -35px);
+    transform: translate(100px, -18px);
   }
   100% {
     transform: translate(0px, 0px);
@@ -351,14 +358,15 @@ h2, h3, h4, h5 {
   max-width: 55rem;
 }
 .s-main .container .main .right-container {
-  animation: spinning 5s infinite linear;
+  animation: spinning 10s infinite linear;
 }
 .s-main .sea {
   position: absolute;
-  bottom: -16rem;
+  bottom: -15.5rem;
   left: 0;
   width: 100%;
   max-height: 45rem;
+  z-index: 1000;
 }
 .s-main .sea img {
   width: 100%;
@@ -367,8 +375,8 @@ h2, h3, h4, h5 {
 .s-main .ship {
   position: absolute;
   left: 20;
-  bottom: 1rem;
-  animation: navigation 15s infinite linear;
+  bottom: 5rem;
+  animation: navigation 20s infinite linear;
 }
 .s-main .ship img {
   width: 15rem;
@@ -426,7 +434,7 @@ h2, h3, h4, h5 {
     max-width: 100%;
   }
   .s-main .container .main .left-container p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     width: 100%;
     max-width: 80%;
   }
@@ -546,6 +554,11 @@ h2, h3, h4, h5 {
 @media (max-width: 600px) {
   .s-contact .container .contact .info ul {
     grid-gap: 4rem 2rem;
+  }
+}
+@media (max-width: 440px) {
+  .s-contact .container .contact .info ul {
+    grid-template-columns: 1fr;
   }
 }
 

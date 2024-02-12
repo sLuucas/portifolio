@@ -172,7 +172,7 @@
                 }
             }
             .right-container{
-                animation: spinning 5s infinite linear;
+                animation: spinning 10s infinite linear;
             }
         }
         
@@ -180,10 +180,11 @@
     }
     .sea{
         position: absolute;
-        bottom: -16rem;
+        bottom: -15.5rem;
         left: 0;
         width: 100%;
         max-height: 45rem;
+        z-index: 1000;
         img{
             width: 100%;
             height: 45rem;
@@ -193,8 +194,8 @@
     .ship{
         position: absolute;
         left: 20;
-        bottom: 1rem;
-        animation: navigation 15s infinite linear;
+        bottom: 5rem;
+        animation: navigation 20s infinite linear;
         img{
             width: 15rem;
         }
@@ -270,7 +271,7 @@
                         max-width: 100%;
                     }
                     p{
-                        font-size: 1.7rem;
+                        font-size: 1.5rem;
                         width: 100%;
                         max-width: 80%;
                     }
@@ -439,6 +440,17 @@
                 .info{
                     ul{
                         grid-gap: 4rem 2rem;
+                    } 
+                }
+            }
+        }
+    }
+    @media (max-width:440px){
+        .container{
+            .contact{
+                .info{
+                    ul{
+                        grid-template-columns: 1fr;
                     } 
                 }
             }
